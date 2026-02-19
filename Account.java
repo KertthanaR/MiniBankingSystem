@@ -1,6 +1,6 @@
 /* javac *.java
     java BankSystem
-     in terminal to run code
+     in terminal to run code- vs code
      */
 import java.io.Serializable;
 
