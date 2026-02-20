@@ -36,6 +36,32 @@ MiniBankingSystem/
 ├── .gitignore
 └── README.md
 
+**System Workflow**
+
+The program starts and displays a menu.
+
+The user selects an option (create account, deposit, withdraw, display, exit).
+
+The system processes the request.
+
+Account data is updated accordingly.
+
+Information is saved to a file for persistence.
+
+This workflow ensures organized execution and continuous interaction until the user chooses to exit.
+
+**Data Validation**
+
+The system includes basic validation such as:
+
+Preventing withdrawal if the balance is insufficient.
+
+Ensuring balance updates correctly after transactions.
+
+Maintaining structured account information.
+
+This helps simulate real-world banking rules in a simplified way.
+
 **Concepts Applied**
 
 * Encapsulation
