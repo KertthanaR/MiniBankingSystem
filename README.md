@@ -16,7 +16,7 @@ This project demonstrates the application of Object-Oriented Programming concept
 * Display account details
 * Save account data to a file
 
----
+
 
 **Technologies Used**
 
@@ -25,7 +25,7 @@ This project demonstrates the application of Object-Oriented Programming concept
 * File Handling
 * Console-based interface
 
----
+
 
 **Project Structure**
 
@@ -35,12 +35,6 @@ MiniBankingSystem/
 ├── BankSystem.java
 ├── .gitignore
 └── README.md
-```
-
-Account.java → Handles account data and transaction methods
-BankSystem.java → Contains the main method and menu system
-
-
 
 **Concepts Applied**
 
