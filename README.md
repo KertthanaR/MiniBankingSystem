@@ -1,0 +1,55 @@
+**Mini Banking System**
+
+ Project Description
+
+The Mini Banking System is a console-based Java application that simulates basic banking operations. It allows users to create accounts, deposit money, withdraw money, and display account details. Account information is stored using file handling for persistence.
+
+This project demonstrates the application of Object-Oriented Programming concepts in Java.
+
+
+
+**Features**
+
+* Create new bank accounts
+* Deposit money
+* Withdraw money
+* Display account details
+* Save account data to a file
+
+---
+
+**Technologies Used**
+
+* Java
+* Object-Oriented Programming (OOP)
+* File Handling
+* Console-based interface
+
+---
+
+**Project Structure**
+
+MiniBankingSystem/
+│
+├── Account.java
+├── BankSystem.java
+├── .gitignore
+└── README.md
+```
+
+Account.java → Handles account data and transaction methods
+BankSystem.java → Contains the main method and menu system
+
+
+
+**Concepts Applied**
+
+* Encapsulation
+* Abstraction
+* Modularity
+* Constructor usage
+* File writing
+
+
+
+
