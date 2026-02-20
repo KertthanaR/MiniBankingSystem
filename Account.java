@@ -3,15 +3,15 @@
      in terminal to run code- vs code
      */
 import java.io.Serializable;
-
+// Account class represents a single bank account
 public class Account implements Serializable {
-
+// Private variables to store account details
     private String accountNo;
     private String name;
     private double balance;
 
     private static final double MIN_BALANCE = 500.0;
-
+// Constructor to initialize account details
     public Account(String accountNo, String name, double balance) {
         this.accountNo = accountNo;
         this.name = name;
@@ -29,7 +29,7 @@ public class Account implements Serializable {
     public double getBalance() {
         return balance;
     }
-
+        // Method to deposit money into the account
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
