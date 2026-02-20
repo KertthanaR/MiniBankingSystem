@@ -1,14 +1,15 @@
 import java.io.*;
 import java.util.*;
-
+// BankSystem class controls program execution
 public class BankSystem {
 
     private static final String FILE_NAME = "accounts.txt";
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-
+       // Loop to display menu repeatedly
         while (true) {
+             // Display menu options
             System.out.println("\n===== Mini Banking System =====");
             System.out.println("1. Create Account");
             System.out.println("2. Deposit");
@@ -23,6 +24,7 @@ public class BankSystem {
             try {
                 switch (choice) {
                     case 1:
+                          // Create a new account
                         createAccount();
                         break;
                     case 2:
